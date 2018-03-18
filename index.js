@@ -11,7 +11,7 @@ class Driver {
     this.p = [];
     store.drivers.push(this)
   }
-  driver() {
+  trips() {
     return this.t
   }
 
