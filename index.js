@@ -1,4 +1,4 @@
-var store = [];
+store = [];
 
 class Driver {
   constructor(name) {
