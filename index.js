@@ -28,6 +28,14 @@ class Passenger {
     this.id = ++passengerId;
     store.passengers.push(this)
   }
+
+  trips() {
+    return this.t
+  }
+
+  drivers() {
+    return this.d
+  }
 }
 
 class Trip {
