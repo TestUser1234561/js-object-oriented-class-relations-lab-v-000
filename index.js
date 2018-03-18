@@ -37,7 +37,7 @@ class Trip {
     this.d = driver;
     this.p = passenger;
     driver.t.push(this);
-    driver.p.push(this);
+    driver.p.push(passenger);
     store.trips.push(this)
   }
 
