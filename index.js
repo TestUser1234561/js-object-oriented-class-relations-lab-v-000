@@ -25,8 +25,16 @@ class Trip {
     this.id = ++tripId;
     this.driverId = driver.id;
     this.passengerId = passenger.id;
-    this.driver = driver;
-    this.passenger = passenger;
+    this.d = driver;
+    this.p = passenger;
     store.trips.push(this)
+  }
+
+  get driver() {
+    return this.d
+  }
+
+  get passenger() {
+    return this.p
   }
 }
