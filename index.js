@@ -12,7 +12,7 @@ class Driver {
     store.drivers.push(this)
   }
   driver() {
-    return this.d
+    return this.t
   }
 
   passenger() {
