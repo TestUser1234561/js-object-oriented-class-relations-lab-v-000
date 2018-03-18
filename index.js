@@ -15,7 +15,7 @@ class Driver {
     return this.t
   }
 
-  passenger() {
+  passengers() {
     return this.p
   }
 }
