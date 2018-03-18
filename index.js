@@ -30,11 +30,11 @@ class Trip {
     store.trips.push(this)
   }
 
-  get driver() {
+  driver() {
     return this.d
   }
 
-  get passenger() {
+  passenger() {
     return this.p
   }
 }
